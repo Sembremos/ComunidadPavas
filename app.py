@@ -7,10 +7,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# --- Encabezado de imagen y texto justificado ---
-try:
-    st.image("logo_pavas.png", width=700)
-
 # --- Título y descripción ---
 st.title("Encuesta Comunidad Pavas 🏘️")
 st.markdown("Por favor, responda las siguientes preguntas sobre la seguridad en su barrio.")

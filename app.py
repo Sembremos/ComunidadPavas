@@ -7,9 +7,12 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 # --- Encabezado de imagen y texto justificado ---
+# --- Encabezado de imagen y texto justificado ---
 try:
     # Asegúrate de que el archivo 'logo_pavas.png' esté en tu repositorio de GitHub
     st.image("logo_pavas.png", width=700)
+except FileNotFoundError:
+    st.warning("Advertencia: El archivo 'logo_pavas.png' no se encontró. Asegúrate de que está en la misma carpeta que 'app.py'.")
     
 # --- Título y descripción ---
 st.title("Encuesta Comunidad Pavas 🏘️")

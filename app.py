@@ -15,7 +15,7 @@ except FileNotFoundError:
     st.warning("Advertencia: El archivo 'logo_pavas.png' no se encontró. Asegúrate de que está en la misma carpeta que 'app.py'.")
     
 # --- Título y descripción ---
-st.title("Encuesta Comunidad Pavas 🏘️")
+st.markdown("<h1 style='text-align: center; color: green;'>Encuesta Comunidad Pavas</h1>", unsafe_allow_html=True)
 st.markdown("Por favor, responda las siguientes preguntas sobre la seguridad en su barrio.")
 
 # --- Formulario de la encuesta ---

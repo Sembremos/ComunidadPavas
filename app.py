@@ -6,7 +6,11 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed"
 )
-
+# --- Encabezado de imagen y texto justificado ---
+try:
+    # Asegúrate de que el archivo 'logo_pavas.png' esté en tu repositorio de GitHub
+    st.image("logo_pavas.png", width=700)
+    
 # --- Título y descripción ---
 st.title("Encuesta Comunidad Pavas 🏘️")
 st.markdown("Por favor, responda las siguientes preguntas sobre la seguridad en su barrio.")
